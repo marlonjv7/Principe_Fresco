@@ -1,0 +1,47 @@
+{
+    "productos": [
+
+      {
+        "id": 0,
+        "name": "Crown Sweatshirt ",
+        "img1": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079706/Imagenes%20Fresh%20Prince/Rectangle_3_npbrxm.png",
+        "img2": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079705/Imagenes%20Fresh%20Prince/Rectangle_2_l7tzds.png",
+        "img3": " https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079706/Imagenes%20Fresh%20Prince/Rectangle_1_xwn7i5.png",
+        "precio": "$80.00",
+        "Descripción": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
+        "order": "Todos"
+      },
+      {
+        "id": 1,
+        "name": "Fresh Black Tie-Dye Hoodie ",
+        "img1": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079706/Imagenes%20Fresh%20Prince/Rectangle_6-1_vuapvs.png",
+        "img2": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079704/Imagenes%20Fresh%20Prince/Frame_18_hum72m.png",
+        "img3": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079704/Imagenes%20Fresh%20Prince/Frame_17_qr8ija.png",
+        "precio": "$75.00",
+        "Descripción": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
+        "order": "Todos"
+      },
+      {
+        "id": 2,
+        "name": "Pose For It Tee",
+        "img1": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079707/Imagenes%20Fresh%20Prince/Rectangle_6-2_uzcx5x.png",
+        "img2": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079706/Imagenes%20Fresh%20Prince/Frame_20_uckotb.png",
+        "img3": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079704/Imagenes%20Fresh%20Prince/Frame_21_runx4x.png",
+        "precio": "$45.00",
+        "Descripción": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
+        "order": "Todos"
+      },
+      {
+        "id": 3,
+        "name": "Fresh Stripe Sweater",
+        "img1": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079704/Imagenes%20Fresh%20Prince/Frame_14_z4oadc.png",
+        "img2": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079704/Imagenes%20Fresh%20Prince/Frame_15_imrahk.png",
+        "img3": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079706/Imagenes%20Fresh%20Prince/Rectangle_6_flkbrk.png",
+        "precio": "$85.00",
+        "Descripción": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
+        "order": "Todos"
+      }
+     
+    ]
+  }
+  
