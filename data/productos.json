@@ -1,0 +1,142 @@
+{
+    "productos": [
+      {
+        "id": 0,
+        "name": "Crown Sweatshirt ",
+        "img1": "https://tse3.mm.bing.net/th?id=OIP.xG6Zkmy-zkN0Q2hQxI7deAHaE8&pid=Api&P=0&w=255&h=170",
+        "img1": "https://tse3.mm.bing.net/th?id=OIP.xG6Zkmy-zkN0Q2hQxI7deAHaE8&pid=Api&P=0&w=255&h=170",
+        "precio": "5$",
+        "categoria": "Lunch",
+        "Descripción": "Cras nisl ante, vulputate nec enim sed, maximus sagittis nibh. Phasellus semper erat euismod quam vulputate, vitae dictum lorem volutpat. Cras euismod, leo sit amet tempus sagittis, neque purus porttitor libero, eu posuere libero lectus vel elit. Pellentesque sed ultrices ex. Praesent ipsum dui, vestibulum eget feugiat vel, feugiat ut turpis. ",
+        "order": "Todos"
+      },
+      {
+        "id": 1,
+        "name": "Kebab ",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.Zkhx9494exwVNIOdhkQajgHaEa&pid=Api&P=0&w=297&h=176",
+        "precio": "7$",
+        "categoria": "Lunch",
+        "Descripción": "Ut facilisis mi nulla, id tempor purus suscipit quis. Nam id tincidunt mi. Aliquam convallis ante mauris, vitae accumsan est vulputate a. Duis a venenatis elit, id dapibus sem. Morbi pulvinar, sapien vitae mattis vestibulum, ante ex porta nisi, eu aliquam dui libero id augue. Mauris ac magna ac ex blandit dapibus ac at metus. Nullam in blandit ligula. Orci varius natoque penatibus et magnis dis ",
+        "order": "Todos"
+      },
+      {
+        "id": 2,
+        "name": "Burritos ",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.xyW1yjf-LjcBpo6ahyvpYgHaE7&pid=Api&P=0&w=243&h=162",
+        "precio": "9$",
+        "categoria": "Lunch",
+        "Descripción": "Donec sed sapien rhoncus, fermentum nisi ac, euismod purus. Mauris eget mi id est finibus ultricies vel nec ante. Etiam at consequat tellus. Maecenas ut tellus quis sapien varius tincidunt eu a neque. Sed vestibulum vulputate mauris, pretium tristique turpis tempus volutpat. Suspendisse vehicula lectus id finibus pulvinar. ",
+        "order": "Todos"
+      },
+      {
+        "id": 3,
+        "name": "Croissant",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.8sYeqDUtLADJ34wH_fVV0QHaEJ&pid=Api&P=0&w=302&h=169",
+        "precio": "2$",
+        "categoria": "Desserts",
+        "Descripción": "Nam vitae ligula orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus imperdiet consequat sapien ac vestibulum. Ut tristique velit at ante volutpat pulvinar. Aenean ultrices sem non ultrices ornare. Mauris leo dolor, semper a faucibus quis, iaculis et mi. Mauris lectus mauris, ultricies sit amet luctus vitae, facilisis ut neque. ",
+        "order": "Todos"
+      },
+      {
+        "id": 4,
+        "name": "Cheesecake ",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.evtB4aofGlhEGfRnWP3JRQHaF0&pid=Api&P=0&w=235&h=185",
+        "precio": "4$",
+        "categoria": "Desserts",
+        "Descripción": "Donec viverra pretium nisl eget eleifend. Fusce dapibus tempor bibendum. Vivamus hendrerit ipsum cursus massa tincidunt ullamcorper. Morbi nec nisi ornare nisl dignissim dictum. Praesent nec interdum lectus, a euismod mauris. Aenean accumsan felis nisl, et efficitur felis gravida id. Vestibulum vitae odio massa.",
+        "order": "Todos"
+      },
+      {
+        "id": 5,
+        "name": "Pie",
+        "img": "https://tse4.mm.bing.net/th?id=OIP.XSWN6t835Ex_wHVIATk60wHaE8&pid=Api&P=0&w=243&h=162",
+        "precio": "5$",
+        "categoria": "Desserts",
+        "Descripción": "Mauris leo dolor, semper a faucibus quis, iaculis et mi. Mauris lectus mauris, ultricies sit amet luctus vitae, facilisis ut neque. In rutrum gravida rutrum. Aliquam est felis, dignissim a ultrices sed, suscipit quis odio. Quisque ac viverra ligula. Maecenas sollicitudin luctus orci sit amet dignissim. Maecenas lacinia purus euismod, blandit justo non, molestie nulla. Fusce eu justo eros. ",
+        "order": "Todos"
+      },
+      {
+        "id": 6,
+        "name": "Cappuccino",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.yl4x-ydr5oloE4mOtvPc3QHaE8&pid=Api&P=0&w=286&h=191",
+        "precio": "2$",
+        "categoria": "Drinks",
+        "Descripción": "Phasellus consequat metus non urna dapibus gravida nec et urna. In vel tincidunt augue, at vulputate lorem. Ut lobortis faucibus libero, id condimentum ligula scelerisque in. Duis consequat eros molestie ipsum tincidunt posuere. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  ",
+        "order": "Todos"
+      },
+      {
+        "id": 7,
+        "name": "Macchiato",
+        "img": "https://tse4.mm.bing.net/th?id=OIP.-Kjy9ndcLRijDU2BXYU-vQHaEL&pid=Api&P=0&w=298&h=168",
+        "precio": "1$",
+        "categoria": "Drinks",
+        "Descripción": "usce dictum euismod magna, in blandit enim egestas non. Aenean egestas lorem massa, ac tempus dolor malesuada nec. Proin mollis, enim sed vehicula ullamcorper, turpis mi sagittis mi, id posuere odio augue vitae lorem. Praesent ligula risus, ultricies et euismod nec, scelerisque at erat. Cras cursus consequat tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vel faucibus diam.",
+        "order": "Todos"
+      },
+      {
+        "id": 8,
+        "name": "Sandwich",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.EscAiEsO_UyJz247tX1ukwHaEn&pid=Api&P=0&w=245&h=152",
+        "precio": "1$",
+        "categoria": "Breakfast",
+        "Descripción": "Donec euismod at enim at fermentum. Donec sit amet placerat massa. Morbi felis tellus, fringilla ut bibendum vitae, aliquet id risus. Etiam finibus, libero non commodo aliquam, dui nisl vehicula neque, aliquam venenatis purus justo et arcu. In ut justo efficitur, molestie urna vitae, maximus enim. Donec nec euismod leo. Mauris et gravida lorem. Vestibulum volutpat magna tortor, in gravida libero volutpat sit amet. ",
+        "order": "Todos"
+      },
+      {
+        "id": 9,
+        "name": "Pancakes",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.Qpb0n7Unva8wOeMeHQ3LLwHaE6&pid=Api&P=0&w=253&h=168",
+        "precio": "13$",
+        "categoria": "Breakfast",
+        "Descripción": "Sed commodo nibh ac dolor laoreet consequat vulputate sed nisi. Cras iaculis posuere lectus, vel interdum est volutpat eget. Donec quis ante ut sem vulputate sodales. Quisque in sem viverra, sagittis nisi dictum, feugiat est. Nunc ac leo eu dolor hendrerit porttitor. Nunc egestas augue erat, et viverra dui blandit at. Quisque malesuada sollicitudin risus, semper consequat velit aliquet a. Vestibulum molestie lobortis lacinia. Morbi vel arcu sit amet nibh viverra ullamcorper. ",
+        "order": "Todos"
+      },
+      {
+        "id": 10,
+        "name": "Waffles",
+        "img": "https://tse4.mm.bing.net/th?id=OIP.Ro-laQhEPFzo2Hb98mGJ7gHaE8&pid=Api&P=0&w=229&h=153",
+        "precio": "13$",
+        "categoria": "Breakfast",
+        "Descripción": "Nam in dignissim mauris. Cras vel augue interdum, pharetra augue eu, egestas nisi. Maecenas non dictum augue. Sed sed purus malesuada dolor cursus sagittis quis id sem. Nulla id justo eros. Curabitur consectetur facilisis metus a rutrum. Aenean eu imperdiet ligula. Proin vel leo nisi. Fusce vel posuere odio, at rhoncus orci. Duis laoreet lectus vitae quam varius, sit amet mollis tellus tempus.  ",
+        "order": "Todos"
+      },
+      {
+        "id": 11,
+        "name": "Crepes",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.OYHjbUyVaKhB5HJE-xwRVgHaE8&pid=Api&P=0&w=264&h=176",
+        "precio": "14$",
+        "categoria": "Breakfast",
+        "Descripción": "Nulla tempor, nunc sit amet consequat pharetra, nunc ligula hendrerit leo, ac euismod velit lectus eu sapien. Nullam id est id orci lobortis facilisis non sed orci. Praesent a est placerat, imperdiet orci quis, lacinia augue. Cras et dui arcu. Sed sit amet diam justo. Fusce a urna velit. Integer nec diam ac sem elementum suscipit. Proin viverra orci vel dui varius congue ut commodo purus. Nulla viverra ornare orci ac bibendum. ",
+        "order": "Todos"
+      },
+      {
+        "id": 11,
+        "name": "Omelet",
+        "img": "https://tse4.mm.bing.net/th?id=OIP.z7hcZAOXHxsEfmpL1JhFzAHaE8&pid=Api&P=0&w=231&h=154",
+        "precio": "8$",
+        "categoria": "Dinner",
+        "Descripción": "Praesent cursus ex ut orci sagittis, sed dignissim quam ultricies. Sed ligula orci, dapibus a sagittis id, accumsan quis metus. Sed lacus dolor, dictum eget convallis et, semper quis mauris. Pellentesque dignissim quis velit id posuere. Sed id turpis nibh. Mauris nisl nunc, aliquam vitae dapibus sit amet, malesuada quis dolor. ",
+        "order": "Todos"
+      },
+      {
+        "id": 12,
+        "name": "Pasta",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.QCuAxCJNxOLJiMTPjXD8fQHaFj&pid=Api&P=0&w=212&h=159",
+        "precio": "15$",
+        "categoria": "Dinner",
+        "Descripción": "Pellentesque mauris est, finibus sit amet maximus et, tristique rutrum leo. Suspendisse potenti. Fusce non felis justo. Integer gravida euismod purus. Nunc id nibh vitae risus euismod blandit. Nulla sit amet quam eget ex pellentesque lacinia. Duis blandit turpis felis, at pharetra nulla vestibulum ac. ",
+        "order": "Todos"
+      },
+      {
+        "id": 13,
+        "name": "Pizza",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.94of86hCXPlk56EuN-WPLAHaE1&pid=Api&P=0&w=284&h=185",
+        "precio": "18$",
+        "categoria": "Dinner",
+        "Descripción": "Quisque pulvinar ullamcorper ex vitae pretium. Nam et leo nec nisi tincidunt ullamcorper in quis diam. Aenean non blandit libero, eget lobortis libero. Donec vel augue consectetur, efficitur orci eu, scelerisque dolor. In pulvinar enim nisi, non porta metus efficitur ut. Integer pharetra nulla feugiat ex tincidunt rutrum. Integer a dui sed ex hendrerit congue.",
+        "order": "Todos"
+      },
+     
+    ]
+  }
+  
