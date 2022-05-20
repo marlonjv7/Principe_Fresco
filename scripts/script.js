@@ -1,17 +1,19 @@
+import mostrarCard from "../modules/mostrarCard.js";
 import mostrarInfo from "../modules/mostrarInfo.js";
 
 let contenedor = document.getElementById('mostrar');
+let contain2 = document.getElementById('mostrar2');
 let but = document.getElementById('btn');
 let agg = document.getElementById('agg')
 let carrito = document.getElementById('carrito')
 const URL = 'https://fresh-prince-api.herokuapp.com/productos'
-
 
 document.addEventListener('DOMContentLoaded', async ({}) => {
 
     const { data } = await axios.get(URL);
 
     mostrarInfo(contenedor, data);
+    mostrarCard(contain2, data);
 });
 
 

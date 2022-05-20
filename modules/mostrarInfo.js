@@ -3,7 +3,7 @@ const mostrarInfo = (contain, data) => {
     contain.innerHTML = ''
     data.forEach((element) => {
 
-        const { name, img1, img2, img3, id, descripcion, precio } = element;
+        const { name, img1, img2, img3, id, Descripción, precio } = element;
 
         contain.innerHTML += `
         <div class="row g-0">
@@ -31,7 +31,7 @@ const mostrarInfo = (contain, data) => {
                     <button type="button" class="btn btn-dark btn-md w-100 my-2">ADD TO CART</button>
                     <button type="button" class="btn btn-primary btn-md w-100">BUY IT NOW</button>
                 </div>
-                <p class="my-3">${descripcion}</p>
+                <p class="my-3">${Descripción}</p>
                 <a href="" class="link-dark">Click for Sizing</a>
             </div>
         </div>
