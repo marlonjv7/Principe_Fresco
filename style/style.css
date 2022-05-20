@@ -1,1 +1,14 @@
 
+.carrito{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height:100%;
+
+}
+.carro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: foto titulo cantidad
+                         foto precio quitar 
+
+}
