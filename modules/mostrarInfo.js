@@ -1,14 +1,12 @@
 const mostrarInfo = (contain, data) => {
 
     contain.innerHTML = ''
-    data.forEach((element) => {
+    const { name, img1, img2, img3, id, Descripción, precio } = data;
 
-        const { name, img1, img2, img3, id, Descripción, precio } = element;
-
-        contain.innerHTML += `
+    contain.innerHTML += `
         <div class="row g-0">
             <div class="col-sm-6 col-md-2">
-                <img src="${img1}" class="my-2" style="width: 8rem;">
+                <img id="${id}" src="${img1}" class="my-2" style="width: 8rem;">
                 <img src="${img2}" class="my-2" style="width: 8rem;">
                 <img src="${img3}" class="my-2" style="width: 8rem;">
             </div>
@@ -36,7 +34,6 @@ const mostrarInfo = (contain, data) => {
             </div>
         </div>
         `
-    });
 };
 
 export default mostrarInfo;
