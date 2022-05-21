@@ -11,27 +11,27 @@ const URL = 'https://fresh-prince-api.herokuapp.com/productos'
 document.addEventListener('DOMContentLoaded', async ({}) => {
 
     const { data } = await axios.get(URL);
-
-    mostrarInfo(contenedor, data);
     mostrarCard(contain2, data);
 });
 
 
-// agg.addEventListener('submit', async () => {
 
-//     let input1 = document.getElementById('valor1').value;
-//     let input2 = document.getElementById('valor2').value;
-//     let input3 = document.getElementById('valor3').value;
 
-//     let newObjet = {
-//         name: input1,
-//         img: input2,
-//         description: input3
-//     }
+agg.addEventListener('submit', async () => {
 
-//     await axios.post(URL, newObjet);
+    let input1 = document.getElementById('valor1').value;
+    let input2 = document.getElementById('valor2').value;
+    let input3 = document.getElementById('valor3').value;
 
-// });
+    let newObjet = {
+        name: input1,
+        img: input2,
+        description: input3
+    }
+
+    await axios.post(URL, newObjet);
+
+});
 
 // carrito.addEventListener('click', ({target})=>{
 //     if (target.classList.contains(carrito)) {
