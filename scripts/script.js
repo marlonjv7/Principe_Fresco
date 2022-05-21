@@ -11,6 +11,7 @@ const URL = 'https://fresh-prince-api.herokuapp.com/productos'
 document.addEventListener('DOMContentLoaded', async ({}) => {
 
     const { data } = await axios.get(URL);
+    mostrarInfo(contenedor, data)
     mostrarCard(contain2, data);
 });
 
