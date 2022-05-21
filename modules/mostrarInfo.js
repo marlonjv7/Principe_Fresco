@@ -19,7 +19,7 @@ const mostrarInfo = (contain, data) => {
             </div>
             <div class="col-3 col-md-4">
                 <h1>${name}</h1>
-                <p class="fs-3">$${precio}</p><br>
+                <p class="fs-3">${precio}</p><br>
                 <p class="fs-5">Size</p>
                 <button type="button" class="btn btn-light-dark rounded-circle">S</button>
                 <button type="button" class="btn btn-light-dark rounded-circle">M</button>
