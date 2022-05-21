@@ -25,7 +25,7 @@ document.addEventListener('click', async ({ target }) => {
         let newURL = `${URL}/${id}`;
         const { data } = await axios.get(newURL);
         localStorage.setItem('NewData', JSON.stringify(data));
-        window.location.href = '../index.html'
+        window.location.href = './index.html'
     };
 });
 
