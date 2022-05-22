@@ -35,11 +35,11 @@
             <a href="./pages/agregarShop.html"><img src="./images/icon user.png" class="rounded float-end"
                     style="width: 2rem;"></a>
             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="./images/icon car.png" class="rounded float-end" style="width: 2rem;">
+                <img src="./images/icon car.png" class="rounded clickMod float-end" style="width: 2rem;">
             </button>
 
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -48,18 +48,12 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src="https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079706/Imagenes%20Fresh%20Prince/Rectangle_3_npbrxm.png"
-                                width="100px" class="rounded mx-auto d-block">
-                            <h2 class="prodName">Crown Sweatshirt</h2>
-                            <h5 class="talla">Talla</h5>
-                            <h5 class="precio">Precio</h5>
-                            <div class="colum3">
-                                <input type="number">
-                                <h3>Remove</h3>
+                            <div id="mostrarCarrito">
                             </div>
+
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                                <button type="button" class="btn btn-primary">Comprar</button>
+                                <button type="button" class="btn comprar btn-primary">Comprar</button>
                             </div>
                         </div>
                     </div>
