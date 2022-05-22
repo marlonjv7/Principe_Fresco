@@ -1,4 +1,6 @@
-import { URL } from "../helpers/urls.js";
+import { URLProductos, URLCarrito } from "../helpers/urls.js";
+import { mostrarCarrito } from "../modules/mostrarCarrito.js"
+let id_carrito = document.getElementById('mostrarCarrito');
 let formNewProduct = document.getElementById('formNewProduct')
 
 
@@ -22,7 +24,7 @@ formNewProduct.addEventListener('submit', async (e) => {
     };
 
     try {
-        await axios.post(URL, newObjet);
+        await axios.post(URLProductos, newObjet);
         Swal.fire({
             title: 'Producto Agregado',
             icon: 'success'
@@ -34,4 +36,29 @@ formNewProduct.addEventListener('submit', async (e) => {
             icon: 'error'
         })
     }
+});
+
+document.addEventListener('click', async ({ target }) => {
+
+    if (target.classList.contains('clickMod')) {
+
+        const { data } = await axios.get(URLCarrito);
+        mostrarCarrito(data, id_carrito);
+
+
+    } else if (target.classList.contains('comprar')) {
+
+        Swal.fire({
+            title: 'FELICIDADES PRO TU COMPRAR!!!!',
+            icon: 'success'
+        })
+        window.location.href = '../pages/agregarShop.html'
+
+
+    } else if (target.classList.contains('btnEliminarCarrito')) {
+        let deleteURL = `${URLCarrito}/${target.id}`
+        await axios.delete(deleteURL);
+        window.location.href = '../pages/agregarShop.html'
+
+    } else { }
 });
