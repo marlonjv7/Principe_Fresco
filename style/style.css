@@ -3,4 +3,10 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-
+.otros{
+    font-size: 4rem;
+    text-align: center;
+}
+h5 ,p {
+    font-family: 'Poppins', sans-serif;
+}
