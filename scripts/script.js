@@ -1,54 +1,47 @@
+import { URL } from "../helpers/urls.js";
+import mostrarCard from "../modules/mostrarCard.js";
 import mostrarInfo from "../modules/mostrarInfo.js";
 
-let contenedor = document.getElementById('id');
-let but = document.getElementById('btn');
-let agg = document.getElementById('agg')
-let carrito = document.getElementById('carrito')
-const URL = 'https://fresh-prince-api.herokuapp.com/productos'
+let contenedor = document.getElementById('mostrar');
+let contain2 = document.getElementById('mostrar2');
+let but = document.getElementById('btn'); //este es para modificar el carrito
+let carrito = document.getElementById('carrito') // y este para agregar al carrito 
+let dataNew = JSON.parse(localStorage.getItem('NewData'));
+
+if (dataNew != null) {
+    mostrarInfo(contenedor, dataNew)
+}
 
 
-document.addEventListener('DOMContentLoaded', async ({}) => {
+document.addEventListener('DOMContentLoaded', async ({ }) => {
 
     const { data } = await axios.get(URL);
-
-    mostrarInfo(contenedor, data);
+    mostrarCard(contain2, data);
 });
 
-
-agg.addEventListener('submit', async () => {
-
-    let input1 = document.getElementById('valor1').value;
-    let input2 = document.getElementById('valor2').value;
-    let input3 = document.getElementById('valor3').value;
-
-    let newObjet = {
-        name: input1,
-        img: input2,
-        description: input3
-    }
-
-    await axios.post(URL, newObjet);
-
+document.addEventListener('click', async ({ target }) => {
+    if (target.classList.contains('seleccionar')) {
+        let id = target.id
+        let newURL = `${URL}/${id}`;
+        const { data } = await axios.get(newURL);
+        localStorage.setItem('NewData', JSON.stringify(data));
+        window.location.href = './index.html'
+    };
 });
 
-carrito.addEventListener('click', ({target})=>{
-    if (target.classList.contains(carrito)) {
-        let id = target.id;
-        let capElemento = data.find((item) => item.id == id);
-        localStorage.setItem('newElemento', JSON.stringify(capElemento));
-    }
-})
+// carrito.addEventListener('click', ({target})=>{
+//     if (target.classList.contains(carrito)) {
+//         let id = target.id;
+//         let capElemento = data.find((item) => item.id == id);
+//         localStorage.setItem('newElemento', JSON.stringify(capElemento));
+//     }
+// })
 
 
+// but.addEventListener('click', async () => {
+//     await axios.delete(urlEmpoin);
+// });
 
-
-but.addEventListener('click', async () => {
-
-    await axios.delete(urlEmpoin);
-
-});
-
-
-const put = async (urlEmpoin, objeto = {}) => {
-    await axios.put(urlEmpoin, objeto);
-};
+// const put = async (urlEmpoin, objeto = {}) => {
+//     await axios.put(urlEmpoin, objeto);
+// };
