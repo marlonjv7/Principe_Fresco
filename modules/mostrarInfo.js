@@ -7,13 +7,13 @@ const mostrarInfo = (contain, data) => {
         <div class="row g-0">
             <div class="col-sm-6 col-md-2">
                 <img id="${id}" src="${img1}" class="my-2" style="width: 8rem;">
-                <img src="${img2}" class="my-2" style="width: 8rem;">
-                <img src="${img3}" class="my-2" style="width: 8rem;">
+                <img id="${id}" src="${img2}" class="my-2" style="width: 8rem;">
+                <img id="${id}" src="${img3}" class="my-2" style="width: 8rem;">
             </div>
             <div class="col-3 col-md-6">
-                <img src="${img1}" class="my-2" style="width: 30rem;">
-                <img src="${img2}" class="my-2" style="width: 30rem;">
-                <img src="${img3}" class="my-2" style="width: 30rem;">
+                <img id="${id}" src="${img1}" class="my-2" style="width: 30rem;">
+                <img id="${id}" src="${img2}" class="my-2" style="width: 30rem;">
+                <img id="${id}" src="${img3}" class="my-2" style="width: 30rem;">
             </div>
             <div class="col-3 col-md-4">
                 <h1>${name}</h1>
@@ -26,7 +26,7 @@ const mostrarInfo = (contain, data) => {
                 <button type="button" class="btn btn-light-dark rounded-circle">XXL</button>
 
                 <div class="container-fluid my-2 g-0">
-                    <button type="button" class="btn btn-dark btn-md w-100 my-2">ADD TO CART</button>
+                    <button id="${id}" type="button" class="btn AGGCAR btn-dark btn-md w-100 my-2">ADD TO CART</button>
                     <button type="button" class="btn btn-primary btn-md w-100">BUY IT NOW</button>
                 </div>
                 <p class="my-3">${Descripción}</p>

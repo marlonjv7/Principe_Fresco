@@ -1,4 +1,4 @@
-import { URL } from "../helpers/urls.js";
+import { URLCarrito, URLProductos } from "../helpers/urls.js";
 import mostrarCard from "../modules/mostrarCard.js";
 import mostrarInfo from "../modules/mostrarInfo.js";
 
@@ -14,19 +14,43 @@ if (dataNew != null) {
 
 
 document.addEventListener('DOMContentLoaded', async ({ }) => {
+   
 
-    const { data } = await axios.get(URL);
+    const { data } = await axios.get(URLProductos);
     mostrarCard(contain2, data);
 });
 
 document.addEventListener('click', async ({ target }) => {
     if (target.classList.contains('seleccionar')) {
         let id = target.id
-        let newURL = `${URL}/${id}`;
+        let newURL = `${URLProductos}/${id}`;
         const { data } = await axios.get(newURL);
         localStorage.setItem('NewData', JSON.stringify(data));
         window.location.href = './index.html'
-    };
+    } else if (target.classList.contains('AGGCAR')) {
+        const {name, img1, img2, img3, Descripción} = dataNew
+        let objectNew = {
+            name,
+            img1,
+            img2,
+            img3,
+            Descripción
+        }
+        try {
+            console.log(objectNew)
+            await axios.post(URLCarrito, objectNew);
+            Swal.fire({
+                title: 'Todo bien',
+                icon: 'success'
+            })
+        } catch (error) {
+            Swal.fire({
+                title: 'Oops algo anda mal...',
+                icon: 'error'
+            })
+        }
+    } else { }
+
 });
 
 // carrito.addEventListener('click', ({target})=>{
@@ -39,7 +63,7 @@ document.addEventListener('click', async ({ target }) => {
 
 
 // but.addEventListener('click', async () => {
-//     await axios.delete(urlEmpoin);
+//     await axios.delete('https://fresh-prince-api.herokuapp.com/carrito/');
 // });
 
 // const put = async (urlEmpoin, objeto = {}) => {

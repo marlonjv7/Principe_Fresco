@@ -1,4 +1,4 @@
-import { URL } from "../helpers/urls.js";
+import { URLProductos } from "../helpers/urls.js";
 let formNewProduct = document.getElementById('formNewProduct')
 
 
@@ -22,7 +22,7 @@ formNewProduct.addEventListener('submit', async (e) => {
     };
 
     try {
-        await axios.post(URL, newObjet);
+        await axios.post(URLProductos, newObjet);
         Swal.fire({
             title: 'Producto Agregado',
             icon: 'success'

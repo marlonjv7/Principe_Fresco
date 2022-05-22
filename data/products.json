@@ -1,16 +1,5 @@
 {
     "productos": [
-
-      {
-        "id": 0,
-        "name": "Crown Sweatshirt ",
-        "img1": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079706/Imagenes%20Fresh%20Prince/Rectangle_3_npbrxm.png",
-        "img2": "https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079705/Imagenes%20Fresh%20Prince/Rectangle_2_l7tzds.png",
-        "img3": " https://res.cloudinary.com/dcsn54xoj/image/upload/v1653079706/Imagenes%20Fresh%20Prince/Rectangle_1_xwn7i5.png",
-        "precio": "$80.00",
-        "Descripción": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
-        "order": "Todos"
-      },
       {
         "id": 1,
         "name": "Fresh Black Tie-Dye Hoodie ",
