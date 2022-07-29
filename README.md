@@ -1,4 +1,5 @@
-# Ejercicio_Principe_Fresco
-Gabriel: Maqueta
-Danna : JSON.Server
-Marlon: Logica
+#Principe_Fresco
+>- Gabriel: Maquetado
+>- Danna : Data JSON.Server
+>- Marlon: Logica de programación
+>- ## [App]()
